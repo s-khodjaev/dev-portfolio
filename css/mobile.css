@@ -1,0 +1,55 @@
+/* Navigation */
+
+#main-nav .container {
+  grid-template-columns: 4fr 1fr 1fr;
+}
+
+#main-nav ul,
+#main-nav .contact-btn {
+  display: none;
+}
+
+/* Showcase */
+
+#showcase .showcase-container {
+  grid-template-columns: 1fr;
+}
+
+#showcase .showcase-container .showcase-content h1 {
+  font-size: 50px;
+}
+
+#showcase .showcase-container .showcase-content p {
+  font-size: 18px;
+}
+
+/* Companies */
+
+#companies .container {
+  flex-wrap: wrap;
+}
+
+#companies .container img {
+  width: 170px;
+}
+
+/* Projects */
+
+#projects .projects-container {
+  display: block;
+  width: 100%;
+}
+
+#projects .projects-container .project img {
+  width: 100%;
+}
+
+/* About */
+
+#about .about-info {
+  grid-template-columns: 1fr;
+}
+
+#about .about-info h2 {
+  font-size: 2rem;
+}
